@@ -4,6 +4,9 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
 .homepage {
@@ -16,12 +19,11 @@ body {
 
 .bg-video {
   @apply absolute inset-0 object-cover h-screen w-screen;
-  filter: brightness(0.9);
+  filter: brightness(0.8);
 }
 
 .bg-glass {
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2.5px);
   -webkit-backdrop-filter: blur(2.5px);
@@ -30,18 +32,21 @@ body {
 }
 
 .mid-card {
-  @apply py-20 px-14
+  @apply min-h-screen min-w-full sm:min-w-fit sm:min-h-fit py-20 px-14 sm:rounded-xl
 }
 
 .card-name {
-  @apply font-serif text-7xl text-slate-50
+  @apply font-serif text-6xl sm:text-7xl text-slate-50
 }
 
 .card-title {
-  @apply font-sans text-xl text-slate-50
+  @apply font-sans text-lg sm:text-xl text-slate-50
 }
 
 .social-button {
-  @apply text-slate-50 hover:backdrop-brightness-110 rounded-md px-6 py-2 font-sans font-bold;
-  /* background: rgba(103, 171, 255, 0.224) */
+  @apply text-slate-50 hover:backdrop-brightness-110 rounded-md px-2 sm:px-6 py-2 font-sans font-bold duration-75;
+} 
+
+.social-icon {
+  fill: #f8fafc !important;
 }

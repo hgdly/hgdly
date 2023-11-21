@@ -18,9 +18,6 @@ export default function Home() {
           </video>
         </div>
         <div className="mid-card bg-glass">
-        {/* create two column with flexbox
-        left there is first name and last name and job
-        right there is social link */}
           <div className="grid grid-cols-2 gap-14">
             <div>
               <div className="card-name">Hugo<br/>Deleye</div>

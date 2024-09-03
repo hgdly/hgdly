@@ -31,7 +31,7 @@ export default function Home() {
               <div className="flex flex-row justify-between pt-10 sm:pt-0 px-16 sm:px-0 sm:gap-x-6">
                 <Link href={"./cv"} target='_blank'><div className="social-button">CV</div></Link>
                 {/* <Link href={"https://projects.hgdly.me"} target='_blank'><div className="social-button">Projects</div></Link> */}
-                <Link href={"mailto:hugo@hgdly.me"} target='_blank'><div className="social-button">Mail</div></Link>
+                <Link href={"mailto:%68%75%67%6f%40%68%67%64%6c%79%2e%6d%65"} target='_blank'><div className="social-button">Mail</div></Link>
               </div>
             </div>
           </div>

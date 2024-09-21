@@ -11,6 +11,10 @@ body {
     overflow: visible !important;
 }
 
+.waving-hand {
+    animation: wave 2s infinite;
+}
+
 .markdown-body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;

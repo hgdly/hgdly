@@ -22,7 +22,7 @@ export default function Home() {
             <div>
               <div className="card-name">Hugo</div>
               <div className="card-name pt-1">Deleye</div>
-              <div className="card-title pt-4">AI student @ Toulouse, France</div>
+              <div className="card-title pt-4">AI graduated @ Toulouse, France</div>
             </div>
             <div className="flex flex-col justify-between gap-y-4 sm:gap-y-0 pt-4 sm:pt-0">
               <Link href={"https://www.linkedin.com/in/hugo-deleye/"} target='_blank'><div className="social-button"><div className="flex gap-x-4"><Image src={linkedin_icon} alt="Linkedin icon" className='social_icon'/>LinkedIn</div></div></Link>
